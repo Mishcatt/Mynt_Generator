@@ -1,0 +1,32 @@
+body {
+	background-color: #333333;
+	color: #ffffff;
+	text-align: center;
+}
+
+#LEDarray {
+	color: #000000;
+	-ms-user-drag: none; 
+	-ms-user-select: none;
+	-moz-user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none; 
+	-webkit-user-select: none;
+	user-drag: none; 
+	user-select: none;
+}
+
+.LEDbackground {
+}
+
+.LEDon {
+	background-color: #bbbbbb;
+	cursor: pointer;
+	display: block;
+}
+
+.LEDoff {
+	background-color: #555555;
+	cursor: pointer;
+	display: block;
+}
