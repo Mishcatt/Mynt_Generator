@@ -16,6 +16,15 @@ body {
 	user-select: none;
 }
 
+#LEDarray td {
+	height: 30px;
+	width: 30px;
+}
+
+#LEDoutput {
+	width: 100px;
+}
+
 .LEDbackground {
 }
 

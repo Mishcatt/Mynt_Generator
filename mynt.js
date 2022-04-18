@@ -17,7 +17,7 @@ function LEDset(p, x, y) {
 	}
 	LEDoutput.innerHTML = "";
 	for (i=0; i<144; i+=8) {
-		LEDoutput.innerHTML += "0b"+pixels[i]+pixels[i+1]+pixels[i+2]+pixels[i+3]+pixels[i+4]+pixels[i+5]+pixels[i+6]+pixels[i+7]+", <br \>";
+		LEDoutput.innerHTML += "0b"+pixels[i]+pixels[i+1]+pixels[i+2]+pixels[i+3]+pixels[i+4]+pixels[i+5]+pixels[i+6]+pixels[i+7]+", ";
 	}
 }
 
